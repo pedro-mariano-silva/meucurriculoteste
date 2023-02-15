@@ -1,0 +1,56 @@
+#header{
+    background-color: #939e77;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi', cursive;
+    text-transform: uppercase;
+    }
+
+#nameAndTitle{
+    background-color: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+#nameAndTitle h1, h2{
+    margin:0;
+}
+
+h1,h2,h3{
+        text-transform: uppercase;
+    }
+
+#contact{
+    list-style-type: none;
+}
+#contact i{
+    width: 20px;
+    color:#939e77
+      }   
+
+#saidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+
+}
+
+.card h3{
+    font-family: 'Hubballi', cursive;
+
+}
+
+.card{
+    font-family: 'Ubuntu';
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 15px;
+    padding: 20px;
+}
